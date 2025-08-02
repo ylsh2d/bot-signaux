@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dsa-scalping-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    autoDeploy: true
+    envVars: []
+    region: oregon
